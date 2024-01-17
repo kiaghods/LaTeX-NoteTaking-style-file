@@ -1,0 +1,42 @@
+% this is my first package
+% 
+% (c) Kia Ghods
+%
+%% This program can be redistributed and/or modified under the terms
+%% of the LaTeX Project Public License Distributed from CTAN archives
+%% in directory macros/latex/base/lppl.txt.
+% 
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{kia}
+  [2024/01/17  v0.01 LaTeX package for my own purpose]
+
+\RequirePackage{amsmath, amsthm, amssymb, amsfonts}
+\RequirePackage{thmtools}
+\RequirePackage{graphicx}
+\RequirePackage{setspace}
+\RequirePackage{geometry}
+\RequirePackage{float}
+\RequirePackage{hyperref}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[english]{babel}
+\RequirePackage{framed}
+\RequirePackage[dvipsnames]{xcolor}
+\RequirePackage{tcolorbox}
+\RequirePackage{enumerate}
+\RequirePackage{stix2}
+\textheight 210mm
+\topmargin 0.0mm
+\oddsidemargin 0mm
+\evensidemargin 0mm
+\parindent 0pt
+
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
+\newcommand{\R}{{\mathbb R}}
+\newcommand{\Q}{{\mathbb Q}}
+\newcommand{\Z}{{\mathbb Z}}
+\newcommand{\N}{{\mathbb N}}
+\newcommand{\limc}{{\lim_{x \rightarrow c}}}
+
+\endinput
+%%
+%% End of file `mypackage.sty'.
