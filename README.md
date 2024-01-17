@@ -1,4 +1,4 @@
-# Kia LaTeX Package
+# Kia's LaTeX Note Taking Package
 
 ## Overview
 `kia.sty` is a LaTeX package designed specifically for enhancing math note-taking, particularly useful in courses such as analysis. This package provides convenient shorthands and styling options that streamline the process of typesetting complex mathematical documents.
