@@ -32,7 +32,7 @@ Contributing
 Suggestions and contributions are welcome! Feel free to fork, submit pull requests, or open issues for any improvements or bug fixes.
 
 License
-kia.sty is distributed under the LaTeX Project Public License (LPPL). See LPPL.txt for more details.
+`kia.sty` is distributed under the LaTeX Project Public License (LPPL). See `LPPL-1-3c.tex` for more details.
 
 Contact
 For any questions or support, please contact Kia Ghods at kia.ghods@princeton.edu.
