@@ -1,4 +1,4 @@
-% Note Taking Package
+% this is my first package
 % 
 % (c) Kia Ghods
 %
@@ -35,8 +35,15 @@
 \newcommand{\Q}{{\mathbb Q}}
 \newcommand{\Z}{{\mathbb Z}}
 \newcommand{\N}{{\mathbb N}}
+\newcommand{\C}{\mathbb{C}}
 \newcommand{\limc}{{\lim_{x \rightarrow c}}}
+
+\newenvironment{amatrix}[1]{%
+  \left(\begin{array}{@{}*{#1}{c}|c@{}}
+}{%
+  \end{array}\right)
+}
 
 \endinput
 %%
-%% End of file `kia.sty'.
+%% End of file `mypackage.sty'.
