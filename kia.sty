@@ -30,15 +30,36 @@
 \evensidemargin 0mm
 \parindent 0pt
 
+\colorlet{LightGray}{White!90!Periwinkle}
+\colorlet{LightOrange}{Orange!15}
+\colorlet{LightGreen}{Green!15}
+
+
+\declaretheoremstyle[name=Theorem,]{thmsty}
+\declaretheorem[style=thmsty,numberwithin=section]{theorem}
+\tcolorboxenvironment{theorem}{colback=LightGray}
+
+\declaretheoremstyle[name=Proposition,]{prosty}
+\declaretheorem[style=prosty,numberlike=theorem]{proposition}
+\tcolorboxenvironment{proposition}{colback=LightOrange}
+
+\declaretheoremstyle[name=Principle,]{prcpsty}
+\declaretheorem[style=prcpsty,numberlike=theorem]{principle}
+\tcolorboxenvironment{principle}{colback=LightGreen}
+
+
 \newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
 \newcommand{\R}{{\mathbb R}}
 \newcommand{\Q}{{\mathbb Q}}
 \newcommand{\Z}{{\mathbb Z}}
 \newcommand{\N}{{\mathbb N}}
 \newcommand{\C}{\mathbb{C}}
+\newcommand{\F}{\mathbb{F}}
 \newcommand{\limc}{{\lim_{x \rightarrow c}}}
 \newcommand{\image}{\operatorname{im}}
 \newcommand{\spa}{\operatorname{span}}
+\newcommand{\diverg}{\operatorname{div}}
+\newcommand{\curl}{\operatorname{curl}}
 
 \newenvironment{amatrix}[1]{%
   \left(\begin{array}{@{}*{#1}{c}|c@{}}
